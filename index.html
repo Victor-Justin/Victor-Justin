@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+</head>
+<body>
+    <Form>
+        <label for="Name">Write your Name</label><br>
+        <input type= text id="name" name="name" minlength="2" maxlength="20" required> <br><br>
+
+        <label for="Email">Email Address</label><br>
+        <input type= email id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required> <br><br>
+
+        <label for="Telephone Number">Telephone Number</label><br>
+        <input type="tel" id="phone" name="Phone" minlength="10" maxlength="12" required><br><br>
+
+        <label for="Age">Age</label><br>
+        <input type="number" id="age" name="age" min="1" max="2" required><br><br>
+        <br><br><hr>
+        <label for="Gender"><u>Gender</u></label><br><br>
+        <input type="radio" id="Gender" name="gender" value="Male">Male</input><br>
+        <input type="radio" id="Gender" name="gender" value="Female">Female</input>
+        <br><br><hr>
+
+        <label for="Movies Watched"><u>Movies Watched</u></label><br><br>
+        <input type="checkbox" id="Movies" name="Movies" value="Baby Driver">Baby Driver</input><br>
+        <input type="checkbox" id="Movies" name="Movies" value="Avatar: Way of Water">Avatar: The Way of Water</input><br>
+        <input type="checkbox" id="Movies" name="Movies" value="Iron-man">Iron-man</input><br>
+        <input type="checkbox" id="Movies" name="Movies" value="Captain America: First Avenger">Captain America: First Avenger</input> <br>
+        <input type="checkbox" id="Movies" name="Movies" value="Inception">Inception</input>
+        <br><br><hr>
+<input type="submit"></input>
+    </Form>
+</body>
+</html>
